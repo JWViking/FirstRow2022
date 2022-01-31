@@ -1,9 +1,128 @@
-header {
-    display: flex;
-    flex-direction: row;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.header nav ul {
-   flex-direction: row;
+body {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+header span {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header p {
+    font-size: 1vw;
+    text-align: center;
+}
+
+header p span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 1vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header nav ul li a {
+   padding: 20px 50px;
+   font-weight: lighter;
+   font-size: 1.5vw;
+}
+
+/* Hero Styles */
+.hero {
+    display: flex;
+    justify-content: start;
+    background-image: url("../images/Panorama_Oppstrynsvatnet_Hjelle_hotell_til_høyre_Norway_2015-05-04.jpeg");
+    background-size: cover;
+    background-position: 50% 43%;
+    padding: 40px 65px;
+}
+
+.hero-hello {
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 1vw;
+}
+
+.hero img {
+    border: black solid 4px;
+    width: 15%;
+}
+
+/* Work Styles */
+
+.work {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.work div {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 23vw;
+    border-width: 2px solid;
+    margin: 10px;
+}
+
+.run-buddy {
+    background-color:#779686;
+}
+
+/* About JRW Styles */
+
+.about {
+    background-color: rgb(123, 180, 226);
+    padding: 30px 45px;
+}
+
+/* Contact Me Styles */
+.contact-me div ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me h3 {
 
 }

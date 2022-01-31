@@ -2,68 +2,70 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>JRW Portfolio</title>
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        
+
         <!-- Navigation -->
-        <nav class="header">
-            <ul>
-                <li>
-                    <h4 class="work">Work</h4>
-                </li>
-                <li>
-                 <h4 class="about">About</h4>
-                </li>
-                <li>
-                    <h4 class="JRW">JRW<br />Full Stack Web<br />Developer</h4>
-                </li>
-                <li>
-                    <h4 class="contact-me">Contact Me</h4>
-                </li>
-                <li>
-                    <h4 class="skol-studio">SkolStudios</h4>
-                </li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href=""><span>JRW</span>
+                            <p><span>Developer Portfolio</span></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a>SkolStudios 
+                         <p>Coming Soon</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     
         <!-- Hero Section -->
-        <section>
-            <div>
-                <img src="assets/images/Panorama_Oppstrynsvatnet_Hjelle_hotell_til_høyre_Norway_2015-05-04.jpeg" />
+        <section class="hero">
+                <img class ="hero-headshot" src="assets/images/JRWHeadshot.jpg" alt="A photo of full stack web developer Juliana Wilcox smiling hello." />
+            <div class="hero-hello">
+                <h1 class="who">Juliana Wilcox</h1>
+                <h2 class="what">Full Stack <br />Web Developer</h2>
             </div>
-            <img src="assets/images/JRWHeadshot.jpg" alt="A photo of full stack web developer Juliana Wilcox smiling hello." />
         </section>
 
         <!-- Work Section -->
-        <section>
+        <section id="work" class="work">
             <div class="run-buddy">
-                <img src="assets/images/run-buddy.jpg" />
                 <label>Run Buddy</label>
             </div>
             <div class="lukes-leers">
-                <img src="">
                 <label>Luke's Leers<br />(Coming Soon)</label>
             </div>
             <div class="tic-tac-toe">
-                <img src="" />
                 <label>Tic-Tac-Toe<br />(Coming Soon)</label>
             </div>
             <div class="hqbrains">
-                <img src="" />
                 <label>HQ Brains<br />(Coming Soon)</label>
             </div>
             <div class="ww">
-                <img src="" />
                 <label>Widow Warrior<br />(Coming Soon)</label>
             </div>
 
         </section>
 
         <!-- About JRW Section -->
-        <section class="about">
+        <section id="about" class="about">
             <div>
                 <h3>About JRW</h3>
                 <p>
@@ -77,8 +79,9 @@
         </section>
 
         <!-- Contact Me Section -->
-        <section class="contact-me">
+        <section id="contact-me" class="contact-me"> 
             <div>
+                <h3>Contact Me</h3>
                 <ul>
                     <li>
                         <h4>Email</h4>
