@@ -11,7 +11,6 @@ body {
 /* Header Styles */
 header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 0px 15px;
@@ -49,7 +48,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
     align-content: center;
     list-style: none;
@@ -92,7 +91,7 @@ header nav ul li a {
 /* Work Styles */
 
 .work h3 {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(250, 238, 221);
     padding: 30px;
     height: 20px;
     font-size: 1.75vw;
@@ -124,13 +123,19 @@ header nav ul li a {
     text-decoration: none;
 }
 
+.work-tiles img {
+    width: 100%;
+    height: 27vw;
+    border-radius: 30px;
+}
+
 .work-tiles .run-buddy {
     height: 26vw;
     align-self: center;
     width: 20%;
 }
 
-.tic-tac-toe {
+.password-generator {
     background-color: rgba(119, 150, 134);
 }
 
@@ -140,11 +145,8 @@ header nav ul li a {
 
 .run-buddy {
     background-color:rgba(65, 58, 58, .5);
-    color: white;
-}
-
-.run-buddy a:visited {
-    color: white;
+    background-image: url("../images/run-buddy.png");
+    text-decoration: none;
 }
 
 .hqbrains {
@@ -202,4 +204,84 @@ footer {
     background-color: rgb(169, 169, 169);
     line-height: 8;
     padding: 0px 20px;
+}
+
+/* Media query for smaller devices */
+
+@media screen and (max-width: 900px) {
+    header {
+        justify-content: space-between;
+        flex-direction: column;
+    }   
+}
+
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 2.5vw;
+    }
+
+    header nav ul :nth-child(3) {order: 2;}
+
+    .hero img {
+        width: 20%;
+    }
+
+    .hero-hello {
+        font-size: 1.75vw;;
+    }
+
+    .work h3 {
+        font-size: 2.5vw;
+    }
+
+    .work-tiles {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-tiles div {
+        display: flex;
+        width: 80%;
+        height: 10;
+        margin: 0px;
+        font-family: fantasy;
+        font-size: 2.75vw;
+    }
+
+    .work-tiles .run-buddy {
+        display: flex;
+        width: 95%;
+        height: 15;
+    }
+
+    .about h3 {
+        font-size: 2.5vw;
+    }
+
+    .about div p {
+        font-size: 1.75vw;
+    }
+
+    .contact-me {
+        font-size: 1.75vw;
+    }
+
+    footer {
+        font-size: 1.5vw;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 575) {
+    .about div p {
+        width: 75%;
+        font-size: 2vw;
+    }
 }
