@@ -129,24 +129,39 @@ header nav ul li a {
     border-radius: 30px;
 }
 
-.work-tiles .run-buddy {
+.work-tiles .wine-n-dine {
     height: 26vw;
     align-self: center;
     width: 20%;
+    color:rgb(250, 238, 221);
+    text-decoration: none;
 }
 
 .password-generator {
     background-color: rgba(119, 150, 134);
 }
 
-.lukes-leers {
+.run-buddy{
     background-color: rgb(255, 235, 204);
-}
-
-.run-buddy {
-    background-color:rgba(65, 58, 58, .5);
     background-image: url("../images/run-buddy.png");
     text-decoration: none;
+}
+
+.run-buddy a{
+    text-decoration: none;
+    color:black;
+}
+
+.wine-n-dine {
+    background-color:rgba(65, 58, 58, .5);
+    background-image: url("../images/WineNDine.png");
+}
+
+.wine-n-dine a {
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .hqbrains {
