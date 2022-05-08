@@ -136,6 +136,7 @@ header nav ul li a {
     width: 20%;
     color:rgb(250, 238, 221);
     text-decoration: none;
+    text-shadow: 0 0 32px black;
 }
 
 .password-generator {
@@ -151,6 +152,7 @@ header nav ul li a {
 .run-buddy a{
     text-decoration: none;
     color:black;
+    text-shadow: 0 0 32px white;
 }
 
 .hike-buddy{
@@ -281,7 +283,7 @@ footer {
         font-size: 2.75vw;
     }
 
-    .work-tiles .run-buddy {
+    .work-tiles .hike-buddy {
         display: flex;
         width: 95%;
         height: 15;
