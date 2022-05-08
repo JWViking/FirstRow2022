@@ -129,7 +129,7 @@ header nav ul li a {
     border-radius: 30px;
 }
 
-.work-tiles .wine-n-dine {
+.work-tiles .hike-buddy {
     height: 26vw;
     align-self: center;
     width: 20%;
@@ -152,6 +152,18 @@ header nav ul li a {
     color:black;
 }
 
+.hike-buddy{
+    background-image: url("../images/hike-buddy.png");
+    text-decoration: none;
+}
+
+.hike-buddy a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 .wine-n-dine {
     background-color:rgba(65, 58, 58, .5);
     background-image: url("../images/WineNDine.png");
@@ -159,7 +171,7 @@ header nav ul li a {
 
 .wine-n-dine a {
     text-decoration: none;
-    color:blanchedalmond;
+    color:black;
     font-size: larger;
     font-weight: bolder;
 }
