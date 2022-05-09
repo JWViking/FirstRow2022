@@ -152,7 +152,7 @@ header nav ul li a {
 .run-buddy a{
     text-decoration: none;
     color:black;
-    text-shadow: 0 0 32px white;
+    
 }
 
 .hike-buddy{
@@ -165,6 +165,7 @@ header nav ul li a {
     color: blanchedalmond;
     font-size: larger;
     font-weight: bolder;
+    text-shadow: 2px 2px 5px black;
 }
 
 .wine-n-dine {
@@ -177,6 +178,7 @@ header nav ul li a {
     color:black;
     font-size: larger;
     font-weight: bolder;
+    text-shadow: 2px 2px 5px white;
 }
 
 .hqbrains {
